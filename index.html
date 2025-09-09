@@ -4,41 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/style.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 </head>
+
 <body class="bg-[url(NetflixBackground.png)] bg-cover h-[100vh] flex-row flex">
+
+  <!-- Sidebar -->
   <div class="flex items-center h-screen pr-5 pl-15">
     <div class="rounded-full flex items-center justify-center flex-col h-auto text-white backdrop-blur-lg bg-white/15 rounded-br-">
       <span class="material-symbols-outlined p-5 underline text-blue-500 bg-transparent transition-colors duration-300 hover:bg-blue-500 hover:text-white rounded-full w-auto h-auto">
-      play_circle
+        play_circle
       </span>
       <span class="material-symbols-outlined p-5 bg-transparent transition-colors duration-300 hover:bg-blue-500 hover:text-white rounded-full w-auto h-auto">
-      grid_view
+        grid_view
       </span>
       <span class="material-symbols-outlined p-5 bg-transparent transition-colors duration-300 hover:bg-blue-500 hover:text-white rounded-full w-auto h-auto">
-      tv
+        tv
       </span>
       <span class="material-symbols-outlined p-5 bg-transparent transition-colors duration-300 hover:bg-blue-500 hover:text-white rounded-full w-auto h-auto">
-      nest_remote_comfort_sensor
+        nest_remote_comfort_sensor
       </span>
       <span class="material-symbols-outlined p-5 bg-transparent transition-colors duration-300 hover:bg-blue-500 hover:text-white rounded-full w-auto h-auto">
-      other_houses
+        other_houses
       </span>
       <span class="material-symbols-outlined p-5 bg-transparent transition-colors duration-300 hover:bg-blue-500 hover:text-white rounded-full w-auto h-auto">
-      search
+        search
       </span>
     </div>
   </div>
-      <div class="bg-blue-500 mt-10 mb-10 mr-15 w-screen rounded-2xl backdrop-blur-lg bg-white/15 rounded-br-">
 
-        
+  <!-- Main Content -->
+  <div class="bg-blue-500 mt-10 mb-10 mr-15 w-screen rounded-2xl backdrop-blur-lg bg-white/40 rounded-br- flex-row">
+    <div class="flex">
+      <div class="flex-col">
 
-        <div class="bg-blue-500 mt-10 mb-10 mr-15 w-5/6 rounded-2xl backdrop-blur-lg bg-white/30 rounded-br-">
+        <!-- Logo -->
+        <img src="src/Disney+_logo.svg" class="h-auto p-5 max-w-[200px]">
 
+        <!-- Menu Items -->
+        <span class="material-symbols-outlined bg-transparent transition-colors duration-300 hover:text-white text-blue-500 mt-6 ml-4 mb-4 mr-2">
+          slideshow
+        </span>
+        <p1 class="fontst text-lg">Browse</p1>
+        <br>
+
+        <span class="material-symbols-outlined bg-transparent transition-colors duration-300 hover:text-white text-blue-500 mt-1 ml-4 mb-1 mr-2">
+          favorite
+        </span>
+        <p1 class="fontst text-lg">Wishlist</p1>
+        <br>
+
+        <span class="material-symbols-outlined bg-transparent transition-colors duration-300 hover:text-white text-blue-500 mt-1 ml-4 mb-1 mr-2">
+          calendar_month
+        </span>
+        <p1 class="fontst text-lg">Coming Soon</p1>
+        <br>
+
+        <span class="material-symbols-outlined bg-transparent transition-colors duration-300 hover:text-white text-red-500 mt-10 ml-4 mb-1 mr-2">
+          mode_heat
+        </span>
+        <p1 class="fontst text-lg">New trailers</p1>
+        <br>
+
+        <!-- Movie Cards -->
+        <div class="flex items-end bg-[url(FortniteMovie.jpg)] w-60 h-40 bg-cover rounded-2xl ml-4 mt-4 transition-shadow duration-300 hover:shadow-2xl">
+          <div class="bg-white text-black rounded-b-2xl text-center flex h-7 w-screen justify-center items-end fontst backdrop-blur-lg bg-white/15">
+            Fortnite: The Movie
+            <span class="material-symbols-outlined bg-transparent transition-colors duration-300 hover:text-white text-white text-sm mt-0 ml-4 mb-0 mr-2 hover:bg-gray-800 rounded-full">
+              play_circle
+            </span>
+          </div>
         </div>
+
+        <div class="flex items-end bg-[url(IncrediblesMovie.jpg)] w-60 h-40 bg-cover rounded-2xl ml-4 mt-4 transition-shadow duration-300 hover:shadow-2xl">
+          <div class="bg-white text-black rounded-b-2xl text-center flex h-7 w-screen justify-center items-end fontst backdrop-blur-lg bg-white/15">
+            Incredibles 4
+            <span class="material-symbols-outlined bg-transparent transition-colors duration-300 hover:text-white text-white text-sm mt-0 ml-4 mb-0 mr-2 hover:bg-gray-800 rounded-full">
+              play_circle
+            </span>
+          </div>
+        </div>
+
       </div>
+
+      <!-- Section Two -->
+       <div class="flex w-full h-[100%] ml-5 rounded-r-2xl backdrop-blur-lg bg-white/1">
+          
+       </div>
+      
+  </div>
 </body>
 </html>
