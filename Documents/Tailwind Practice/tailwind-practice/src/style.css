@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.fontst{
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
